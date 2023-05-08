@@ -52,18 +52,16 @@ Users should be able to:
 
 ### What I have learned
 
-This particular course is packed with content and there are too many things to list so I will try to keep it focused on what I felt was new and important in my personal journey.
+- Advanced usage of MongoDB and Mongoose and the RESTFUL API developement: This includes the usage of query strings and the development of query middleware and how to work with the request body. Building advanced data models that use child and parent referencing between them.
 
-- The content that I learned the most from was the advanced usage of MongoDB and Mongoose and the RESTFUL API developement. This includes the use of query strings and the development of query middleware and how to work with the request body. Building advanced data models that use child and parent referencing between them.
+- Learning on how to use virtual population where you are able to fetch referenced documents that are not persisted in the database and display them in the query result. An example of this is how each individual tour can have many reviews and the reviews have their own model. Rather than creating a reference that persists in the DB, which could contain thousands of items, we can connect them through a virtual populate.
 
-- How to use virtual population where you fetch referenced documents that are not persisted in the database and display them in the query result. An example of this is how each individual tour can have many reviews and the reviews have their own model. Rather than creating a reference that persists in the DB, which could contain hundreds of items, we can connect them through a virtual populate.
-
-- Complex error handling. I learned how to separate the operational and programming errors. This way you can send useful messages to the user if something goes wrong with user error and keep the programming errors for use by only the developers. This system was difficult to learn and I'm still a little shaky on the details. Below is a flow chart that helps illustrates the error handling.
+- Complex and Advanced Error Handling: here, I learned to separate the operational and programming errors. In this approach, you can send useful messages to the user if something goes wrong with user error and keep the programming errors for the developers to see only. Below is a flow chart (Credit: J.D. Browne) that helps illustrates the error handling functions.
   ![Error handling](public/assets/Node-backend-architecture.jpg)
 
-- Full payment implementation using Stripe. I have actully used stripe several times in the past but nothing close to how it was used in this project. I was unaware of what could be done with it such personalizing check out screens.
+- Full payment implementation using Stripe.
 
-- This was the first time I have used server-side rendering using Pug and Pug templates and also the first time using parcel bundler. It was interesting to work through it but I found the flow not very straight forward overly complex at times. I would like to explore other ways of server-side rendering in the future.
+- Server-side rendering using Pug and Pug templates and Parcel bundler.
 
 ### Useful Resources
 
