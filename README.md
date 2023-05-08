@@ -1,34 +1,28 @@
 # Natours App
 
-This is a web application for a tour company that offers nature tours in North America. Users can browse the available tours and purchase them using a secure Stripe api.
-
-Although this was a course project, this code is my own. The API developement was very much based on the course content but much of the content and packages used in the course were outdated by a matter of years and no longer relavent. The code and packages used in this project are the most current ( at the time of completion ) and reflects in my ability to go through documantation and find solutions for complex problems
-
-- MongoDB, Express, React and NodeJS.
+The Natours is a web based application for a tour company that offers nature tours in North America. Users can browse the available tours and purchase them using a secure Stripe api.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Description](#description)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [Author](#author)
+  - [Tools](#tools)
+  - [What I have learned](#what-i-have-learned)
+  - [Useful Resources](#useful-resources)
 
 ## Overview
 
-### The challenge
+### Description
 
 Users should be able to:
 
-- Securely register and login to web-app
-- View individual tour details
-- Purchase desired tour using the secure Stripe API
-- View personal profile and edit information as per the users preference.
-- View purcahsed tours under Bookings in user profile.
+- Login (using the example account) to the web application
+- View each exisitng tour details on the tour browse page
+- Purchase desired tours using the secure Stripe API
+- View personal profile and edit personal information
+- View purcahsed tours under "Bookings" section in user profile
 
 ### Screenshot
 
@@ -40,14 +34,7 @@ Users should be able to:
 ![Checkout screen](public/assets/checkout.png)
 ![My tours](public/assets/my-tours.png)
 
-### Links
-
-\*\* NOTE - This version is not responsive yet. Must be viewed on laptop or desktop screen
-
-- Solution URL: [Github-rep](https://github.com/PeshwariNaan/node-design-project.git)
-- Live Site URL: [Live-Link](https://jds-nature-tours.herokuapp.com/)
-
-### Built with
+### Tools
 
 - Node.js
 - MVC architecture (model, view, controller)
@@ -64,7 +51,7 @@ Users should be able to:
 - Advanced error handling
 - [Heroku](https://www.heroku.com/) - Hosting service
 
-### What I learned
+### What I have learned
 
 This particular course is packed with content and there are too many things to list so I will try to keep it focused on what I felt was new and important in my personal journey.
 
@@ -79,14 +66,6 @@ This particular course is packed with content and there are too many things to l
 
 - This was the first time I have used server-side rendering using Pug and Pug templates and also the first time using parcel bundler. It was interesting to work through it but I found the flow not very straight forward overly complex at times. I would like to explore other ways of server-side rendering in the future.
 
-### Continued development
-
-The path forward from this project truthfully leads me back towards other technologies that I have already learned. The knowledge that I gained through the API development, Mongo, Mongoose, and numerous others are invaluable, but I don't plan to continue building in this manner. I would like to use what I have built here and apply it to a React full stack application instead. There are a few routes that we developed for the api that were not implemented on the application. Rather than continue expanding this application, I will build a new one that utilizes all the routes and I can do different styling. I feel this will help me fully understand what we covered in this course.
-
-### Useful resources
+### Useful Resources
 
 - [Mongoose Docs](https://mongoosejs.com/docs/)
-
-## Author
-
-- [J.D. Browne](https://github.com/PeshwariNaan)
