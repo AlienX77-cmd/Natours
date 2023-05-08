@@ -1,6 +1,6 @@
 # Natours App
 
-The Natours is a web based application for a tour company that offers nature tours in North America. Users can browse the available tours and purchase them using a secure Stripe api.
+The Natours is a web based application for a tour company that offers nature tours in North America. Users can browse the available tours and purchase them using a secure Stripe api and they can find their purchased tours in the booking section in their own profile.
 
 ## Table of contents
 
