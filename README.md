@@ -7,7 +7,6 @@ The Natours is a web based application for a tour company that offers nature tou
 - [Overview](#overview)
   - [Description](#description)
   - [Screenshot](#screenshot)
-  - [Links](#links)
   - [Tools](#tools)
   - [What I have learned](#what-i-have-learned)
   - [Useful Resources](#useful-resources)
@@ -37,18 +36,18 @@ Users should be able to:
 ### Tools
 
 - Node.js
-- MVC architecture (model, view, controller)
-- Server-side redering with Pug templates
-- MongoDB / Atlas
-- Mongoose V6
 - Express
+- MVC architecture (MVC - Model, View, Controller)
+- MongoDB Atlas
+- Mongoose
 - Postman
 - JWT for authentication and authorization (using secure cookies)
 - RESTful API design and development with advanced features: filtering, sorting, aliasing, pagination
 - Advanced MongoDB: geospatial queries, aggregation pipeline, and operators
 - Advanced data modelling: relationships between data, embedding and referencing
-- Stripe payment portal implementation
 - Advanced error handling
+- Server-side rendering with Pug templates
+- Stripe payment portal implementation
 - [Heroku](https://www.heroku.com/) - Hosting service
 
 ### What I have learned
@@ -68,4 +67,8 @@ This particular course is packed with content and there are too many things to l
 
 ### Useful Resources
 
+- [Node.js Docs](https://nodejs.org/en/docs/)
+- [Express Docs](https://expressjs.com/)
+- [MongoDB Docs](https://www.mongodb.com/docs/)
 - [Mongoose Docs](https://mongoosejs.com/docs/)
+- [Stripe API Docs](https://stripe.com/docs/api)
