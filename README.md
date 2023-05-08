@@ -48,7 +48,6 @@ Users should be able to:
 - Advanced error handling
 - Server-side rendering with Pug templates
 - Stripe payment portal implementation
-- [Heroku](https://www.heroku.com/) - Hosting service
 
 ### What I have learned
 
